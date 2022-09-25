@@ -1,6 +1,7 @@
 export default {
   title: 'Algorithms Practice',
   description: 'An open source for algorithms, documenting my journey in DSA',
+  base: "/algorithms",
   themeConfig: {
     socialLinks: [
       { icon: 'github', link: 'https://github.com/spiffgreen/algorithms' },
@@ -22,6 +23,7 @@ export default {
       },
       {
         text: "Algorithm",
+        collapsible: true,
         items: [
           { text: 'Introduction', link: '/introduction' },
           { text: 'Getting Started', link: '/getting-started' },
@@ -29,6 +31,7 @@ export default {
       },
       {
         text: "Data Structure Basics",
+        collapsible: true,
         items: [
           { text: 'Introduction', link: '/introduction' },
           { text: 'Getting Started', link: '/getting-started' },
@@ -36,6 +39,7 @@ export default {
       },
       {
         text: "Sorting",
+        collapsible: true,
         items: [
           { text: 'Introduction', link: '/introduction' },
           { text: 'Getting Started', link: '/getting-started' },
@@ -43,6 +47,7 @@ export default {
       },
       {
         text: "Searching Algorithms",
+        collapsible: true,
         items: [
           { text: 'Introduction', link: '/introduction' },
           { text: 'Getting Started', link: '/getting-started' },
@@ -50,6 +55,7 @@ export default {
       },
       {
         text: "Graphs",
+        collapsible: true,
         items: [
           { text: 'Introduction', link: '/introduction' },
           { text: 'Getting Started', link: '/getting-started' },
@@ -57,6 +63,7 @@ export default {
       },
       {
         text: "Trees",
+        collapsible: true,
         items: [
           { text: 'Introduction', link: '/introduction' },
           { text: 'Getting Started', link: '/getting-started' },
@@ -64,6 +71,7 @@ export default {
       },
       {
         text: "Recursion Algorithms",
+        collapsible: true,
         items: [
           { text: 'Introduction', link: '/introduction' },
           { text: 'Getting Started', link: '/getting-started' },
@@ -71,6 +79,7 @@ export default {
       },
       {
         text: "Others",
+        collapsible: true,
         items: [
           { text: 'Algorithm Challenges', link: '/introduction' },
           { text: 'Getting Started', link: '/getting-started' },
