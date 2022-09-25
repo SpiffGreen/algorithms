@@ -1,1 +1,5 @@
 config.js -linguist-vendored
+
+/docs/*.md linguist-detectable=true
+/docs/*.md linguist-language=Markdown
+/docs/*.md linguist-documentation=false
