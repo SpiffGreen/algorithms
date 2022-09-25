@@ -1,0 +1,19 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "An open source for algorithms, documenting my journey in DSA",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": "https://github.com/SpiffGreen/algorithms.git",
+  "author": "Spiff Jekey-Green <spiffjekeygreen@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.15",
+    "vue": "^3.2.39"
+  }
+}
